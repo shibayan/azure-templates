@@ -1,0 +1,11 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": { "value": "arm-basic-sample" },
+    "appServicePlanName": { "value": "Default0" },
+    "siteLocation": { "value": "Japan West" },
+    "sku": { "value": "B1" },
+    "phpVersion": { "value": "5.6" }
+  }
+}
